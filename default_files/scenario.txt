@@ -1,0 +1,38 @@
+LandisData  Scenario
+
+>>
+>> Date:    18/11/26
+>> Version: v0.2
+>> Note:    計算期間85年(初期状態:2015, 計算期間:2016-2100)，空間解像度100m
+>>　　　　　4management (森林・牧草地管理に関して) * 1 climate (rcp8.5)
+>>　　　　　牧草地には標準的な施肥を行い、牧草地に侵入した木本は毎年伐採する
+>>          湿地は計算対象外に設定
+>>
+
+Duration                    85
+Species                     ../../input/species_bekambe.txt
+Ecoregions                  ./ecoregions_bekambe.txt
+EcoregionsMap replace here
+CellLength                  100     << meters, 100 x 100 m = 1 ha
+
+
+>> Succession Extension     Initialization File
+>> --------------------     -------------------
+"NECN Succession"           ./NECN-succession_bekambe.txt
+
+
+>> Disturbance Extensions   Initialization File
+>> ----------------------   -------------------
+"Biomass Harvest"           ./BiomassHarvest.txt
+
+DisturbancesRandomOrder     yes      << optional parameter; default = no
+
+
+>> Other Extensions         Initialization File
+>> ----------------         ------------------
+"Output Biomass"            ../../ini/output-biomass.txt
+>>"Output Cohort Statistics"  ../../ini/output-CohortStats.txt
+>>"Output Biomass-by-Age"     ../../ini/output_biomass_by_age.txt
+
+RandomNumberSeed            4,357
+>> optional parameter; default = the seed is randomly generated using the current time

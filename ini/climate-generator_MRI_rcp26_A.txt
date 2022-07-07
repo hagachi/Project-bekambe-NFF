@@ -1,0 +1,15 @@
+﻿LandisData "Climate Config"	
+
+>>
+>> Date:    17/11/26
+>> Version: beta v3.0.1
+>> Note:    ESGFで公開されているMRI-CGCM3の1度グリッドの気候データを太田の気候データでバイアス補正した。
+>>          N-depositionは森林は降水量からLANDIS内部で計算。農地は耕作されている間は5,6,8月に3.33gNm-2ずつ施肥をするため、エコリージョンごとに施肥を考慮した入力データを生成。
+	
+ClimateTimeSeries		Monthly_SequencedYears
+ClimateFile				./input_MRI-CGCM3_rcp26.csv
+ClimateFileFormat		Monthly_Temp-C_Precip-mmMonth
+
+SpinUpClimateTimeSeries	Monthly_AverageAllYears
+SpinUpClimateFile		./input_MRI-CGCM3_historical.csv
+SpinUpClimateFileFormat	Monthly_Temp-C_Precip-mmMonth

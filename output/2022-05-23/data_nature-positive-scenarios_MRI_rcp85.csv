@@ -1,0 +1,111 @@
+scenario,nplabel,np,isNP
+continue_Half of depop_No solar_Hardwood_Clear_Long_Conifer,pnp,2030s and 2090s,FALSE
+continue_Half of depop_No solar_Natural_Clear_Long_Conifer,pnp,2030s and 2090s,FALSE
+continue_Half of depop_Solar 50%_Hardwood_Selective_Long_Conifer,pnp,2030s and 2090s,FALSE
+continue_Half of depop_Solar 50%_Natural_Selective_Long_Conifer,pnp,2030s and 2090s,FALSE
+continue_Same as depop_No solar_Hardwood_Clear_Long_Conifer,pnp,2030s and 2090s,FALSE
+continue_Same as depop_No solar_Natural_Clear_Long_Conifer,pnp,2030s and 2090s,FALSE
+continue_Same as depop_Solar 50%_Hardwood_Selective_Long_Conifer,pnp,2030s and 2090s,FALSE
+continue_Same as depop_Solar 50%_Hardwood_Selective_Long_Hardwood,pnp,2030s and 2090s,FALSE
+continue_Same as depop_Solar 50%_Natural_Selective_Long_Conifer,pnp,2030s and 2090s,FALSE
+continue_Same as depop_Solar 50%_Natural_Selective_Long_Hardwood,pnp,2030s and 2090s,FALSE
+continue_Half of depop_Solar 100%_Natural_Selective_Long_Conifer,pnn,2030s,FALSE
+continue_Half of depop_Solar 100%_Natural_Selective_Long_Hardwood,pnn,2030s,FALSE
+continue_Half of depop_Solar 100%_Natural_Selective_Normal_Conifer,pnn,2030s,FALSE
+continue_Half of depop_Solar 100%_Natural_Selective_Normal_Hardwood,pnn,2030s,FALSE
+continue_Same as depop_Solar 100%_Natural_Selective_Normal_Conifer,pnn,2030s,FALSE
+continue_Same as depop_Solar 100%_Natural_Selective_Normal_Hardwood,pnn,2030s,FALSE
+continue_Half of depop_No solar_Hardwood_Clear_Long_Hardwood,nnp,2090s,FALSE
+continue_Half of depop_No solar_Hardwood_Clear_Normal_Hardwood,nnp,2090s,FALSE
+continue_Half of depop_No solar_Natural_Clear_Long_Hardwood,nnp,2090s,FALSE
+continue_Half of depop_No solar_Natural_Clear_Normal_Hardwood,nnp,2090s,FALSE
+continue_Same as depop_No solar_Hardwood_Clear_Normal_Conifer,nnp,2090s,FALSE
+continue_Same as depop_No solar_Hardwood_Clear_Normal_Hardwood,nnp,2090s,FALSE
+continue_Same as depop_No solar_Natural_Clear_Normal_Conifer,nnp,2090s,FALSE
+continue_Same as depop_No solar_Natural_Clear_Normal_Hardwood,nnp,2090s,FALSE
+continue_Half of depop_No solar_Hardwood_Clear_Normal_Conifer,nnn,Always < BaU,FALSE
+continue_Half of depop_No solar_Natural_Clear_Normal_Conifer,nnn,Always < BaU,FALSE
+continue_Half of depop_Solar 100%_Natural_Clear_Long_Conifer,nnn,Always < BaU,FALSE
+continue_Half of depop_Solar 100%_Natural_Clear_Long_Hardwood,nnn,Always < BaU,FALSE
+continue_Half of depop_Solar 100%_Natural_Clear_Normal_Conifer,nnn,Always < BaU,FALSE
+continue_Half of depop_Solar 100%_Natural_Clear_Normal_Hardwood,nnn,Always < BaU,FALSE
+continue_Half of depop_Solar 50%_Hardwood_Clear_Long_Conifer,nnn,Always < BaU,FALSE
+continue_Half of depop_Solar 50%_Hardwood_Clear_Long_Hardwood,nnn,Always < BaU,FALSE
+continue_Half of depop_Solar 50%_Hardwood_Clear_Normal_Conifer,nnn,Always < BaU,FALSE
+continue_Half of depop_Solar 50%_Hardwood_Clear_Normal_Hardwood,nnn,Always < BaU,FALSE
+continue_Half of depop_Solar 50%_Natural_Clear_Long_Conifer,nnn,Always < BaU,FALSE
+continue_Half of depop_Solar 50%_Natural_Clear_Long_Hardwood,nnn,Always < BaU,FALSE
+continue_Half of depop_Solar 50%_Natural_Clear_Normal_Conifer,nnn,Always < BaU,FALSE
+continue_Half of depop_Solar 50%_Natural_Clear_Normal_Hardwood,nnn,Always < BaU,FALSE
+continue_No abandonment_No solar_Natural_Clear_Long_Conifer,nnn,Always < BaU,FALSE
+continue_No abandonment_No solar_Natural_Clear_Long_Hardwood,nnn,Always < BaU,FALSE
+continue_No abandonment_No solar_Natural_Clear_Normal_Conifer,nnn,Always < BaU,FALSE
+continue_No abandonment_No solar_Natural_Clear_Normal_Hardwood,nnn,Always < BaU,FALSE
+continue_Same as depop_Solar 100%_Natural_Clear_Long_Conifer,nnn,Always < BaU,FALSE
+continue_Same as depop_Solar 100%_Natural_Clear_Long_Hardwood,nnn,Always < BaU,FALSE
+continue_Same as depop_Solar 100%_Natural_Clear_Normal_Conifer,nnn,Always < BaU,FALSE
+continue_Same as depop_Solar 100%_Natural_Clear_Normal_Hardwood,nnn,Always < BaU,FALSE
+continue_Same as depop_Solar 100%_Natural_Selective_Long_Conifer,nnn,Always < BaU,FALSE
+continue_Same as depop_Solar 100%_Natural_Selective_Long_Hardwood,nnn,Always < BaU,FALSE
+continue_Same as depop_Solar 50%_Hardwood_Clear_Long_Conifer,nnn,Always < BaU,FALSE
+continue_Same as depop_Solar 50%_Hardwood_Clear_Long_Hardwood,nnn,Always < BaU,FALSE
+continue_Same as depop_Solar 50%_Hardwood_Clear_Normal_Conifer,nnn,Always < BaU,FALSE
+continue_Same as depop_Solar 50%_Hardwood_Clear_Normal_Hardwood,nnn,Always < BaU,FALSE
+continue_Same as depop_Solar 50%_Natural_Clear_Long_Conifer,nnn,Always < BaU,FALSE
+continue_Same as depop_Solar 50%_Natural_Clear_Long_Hardwood,nnn,Always < BaU,FALSE
+continue_Same as depop_Solar 50%_Natural_Clear_Normal_Conifer,nnn,Always < BaU,FALSE
+continue_Same as depop_Solar 50%_Natural_Clear_Normal_Hardwood,nnn,Always < BaU,FALSE
+continue__No solar_Natural_Clear_Normal_Conifer,nnn,Always < BaU,FALSE
+abandon_Half of depop_No solar_Hardwood_Selective_Long_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+abandon_Half of depop_No solar_Hardwood_Selective_Long_Natural,ppp,"2030s, 2050s, and 2090s",TRUE
+abandon_Half of depop_No solar_Hardwood_Selective_Normal_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+abandon_Half of depop_No solar_Hardwood_Selective_Normal_Natural,ppp,"2030s, 2050s, and 2090s",TRUE
+abandon_Half of depop_No solar_Natural_Selective_Long_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+abandon_Half of depop_No solar_Natural_Selective_Long_Natural,ppp,"2030s, 2050s, and 2090s",TRUE
+abandon_Half of depop_No solar_Natural_Selective_Normal_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+abandon_Half of depop_No solar_Natural_Selective_Normal_Natural,ppp,"2030s, 2050s, and 2090s",TRUE
+abandon_No abandonment_No solar_Natural___,ppp,"2030s, 2050s, and 2090s",TRUE
+abandon_No abandonment_No solar_Natural_Selective_Long_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+abandon_No abandonment_No solar_Natural_Selective_Long_Natural,ppp,"2030s, 2050s, and 2090s",TRUE
+abandon_No abandonment_No solar_Natural_Selective_Normal_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+abandon_No abandonment_No solar_Natural_Selective_Normal_Natural,ppp,"2030s, 2050s, and 2090s",TRUE
+abandon_Same as depop_No solar_Hardwood_Selective_Long_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+abandon_Same as depop_No solar_Hardwood_Selective_Long_Natural,ppp,"2030s, 2050s, and 2090s",TRUE
+abandon_Same as depop_No solar_Hardwood_Selective_Normal_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+abandon_Same as depop_No solar_Hardwood_Selective_Normal_Natural,ppp,"2030s, 2050s, and 2090s",TRUE
+abandon_Same as depop_No solar_Natural_Selective_Long_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+abandon_Same as depop_No solar_Natural_Selective_Long_Natural,ppp,"2030s, 2050s, and 2090s",TRUE
+abandon_Same as depop_No solar_Natural_Selective_Normal_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+abandon_Same as depop_No solar_Natural_Selective_Normal_Natural,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Half of depop_No solar_Hardwood_Selective_Long_Conifer,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Half of depop_No solar_Hardwood_Selective_Long_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Half of depop_No solar_Hardwood_Selective_Normal_Conifer,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Half of depop_No solar_Hardwood_Selective_Normal_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Half of depop_No solar_Natural_Selective_Long_Conifer,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Half of depop_No solar_Natural_Selective_Long_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Half of depop_No solar_Natural_Selective_Normal_Conifer,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Half of depop_No solar_Natural_Selective_Normal_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Half of depop_Solar 50%_Hardwood_Selective_Long_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Half of depop_Solar 50%_Hardwood_Selective_Normal_Conifer,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Half of depop_Solar 50%_Hardwood_Selective_Normal_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Half of depop_Solar 50%_Natural_Selective_Long_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Half of depop_Solar 50%_Natural_Selective_Normal_Conifer,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Half of depop_Solar 50%_Natural_Selective_Normal_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_No abandonment_No solar_Natural_Selective_Long_Conifer,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_No abandonment_No solar_Natural_Selective_Long_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_No abandonment_No solar_Natural_Selective_Normal_Conifer,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_No abandonment_No solar_Natural_Selective_Normal_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Same as depop_No solar_Hardwood_Clear_Long_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Same as depop_No solar_Hardwood_Selective_Long_Conifer,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Same as depop_No solar_Hardwood_Selective_Long_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Same as depop_No solar_Hardwood_Selective_Normal_Conifer,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Same as depop_No solar_Hardwood_Selective_Normal_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Same as depop_No solar_Natural_Clear_Long_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Same as depop_No solar_Natural_Selective_Long_Conifer,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Same as depop_No solar_Natural_Selective_Long_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Same as depop_No solar_Natural_Selective_Normal_Conifer,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Same as depop_No solar_Natural_Selective_Normal_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Same as depop_Solar 50%_Hardwood_Selective_Normal_Conifer,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Same as depop_Solar 50%_Hardwood_Selective_Normal_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Same as depop_Solar 50%_Natural_Selective_Normal_Conifer,ppp,"2030s, 2050s, and 2090s",TRUE
+continue_Same as depop_Solar 50%_Natural_Selective_Normal_Hardwood,ppp,"2030s, 2050s, and 2090s",TRUE

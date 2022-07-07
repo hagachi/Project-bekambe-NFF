@@ -1,0 +1,92 @@
+Time,scenario,cases,ispareto
+2030,abandon_No abandonment_No solar_Natural___,nnns,Pareto solution
+2030,abandon_Same as depop_No solar_Natural_Selective_Long_Hardwood,nnns,Pareto solution
+2030,continue_Same as depop_No solar_Natural_Selective_Long_Conifer,nnns,Pareto solution
+2030,continue_Same as depop_No solar_Hardwood_Selective_Long_Conifer,nnns,Pareto solution
+2030,continue_Same as depop_No solar_Natural_Selective_Long_Hardwood,nnns,Pareto solution
+2030,continue_Same as depop_No solar_Hardwood_Selective_Long_Hardwood,nnns,Pareto solution
+2030,continue_Same as depop_No solar_Natural_Selective_Normal_Hardwood,nnns,Pareto solution
+2030,continue_Same as depop_No solar_Natural_Selective_Normal_Conifer,nnns,Pareto solution
+2030,continue_Same as depop_No solar_Hardwood_Selective_Normal_Hardwood,nnns,Pareto solution
+2030,continue_Same as depop_No solar_Hardwood_Selective_Normal_Conifer,nnns,Pareto solution
+2030,continue_Half of depop_No solar_Natural_Selective_Normal_Hardwood,nnns,Pareto solution
+2030,continue_Half of depop_No solar_Hardwood_Selective_Normal_Hardwood,nnns,Pareto solution
+2030,continue_Half of depop_No solar_Hardwood_Selective_Normal_Conifer,nnns,Pareto solution
+2030,continue_No abandonment_No solar_Natural_Selective_Normal_Hardwood,nnns,Pareto solution
+2030,continue_Half of depop_Solar 50%_Natural_Selective_Long_Hardwood,nnns,Pareto solution
+2030,continue_Half of depop_Solar 50%_Hardwood_Selective_Long_Hardwood,nnns,Pareto solution
+2030,continue_Half of depop_Solar 50%_Hardwood_Selective_Normal_Hardwood,nnns,Pareto solution
+2030,continue_Same as depop_Solar 50%_Natural_Selective_Normal_Hardwood,nnns,Pareto solution
+2030,continue_Same as depop_Solar 50%_Hardwood_Selective_Normal_Hardwood,nnns,Pareto solution
+2030,continue_Same as depop_Solar 50%_Hardwood_Selective_Normal_Conifer,nnns,Pareto solution
+2030,abandon_No abandonment_No solar_Natural___,nnnc,Pareto solution
+2030,continue_Same as depop_Solar 50%_Hardwood_Selective_Normal_Conifer,nsnc,Pareto solution
+2030,continue_Same as depop_Solar 50%_Natural_Selective_Normal_Conifer,nsnc,Pareto solution
+2030,continue_Half of depop_Solar 50%_Hardwood_Selective_Normal_Conifer,nsnc,Pareto solution
+2030,continue_Half of depop_Solar 50%_Natural_Selective_Normal_Conifer,nsnc,Pareto solution
+2030,continue_Half of depop_Solar 50%_Hardwood_Selective_Long_Hardwood,nsnc,Pareto solution
+2030,continue_No abandonment_No solar_Natural_Selective_Normal_Conifer,nsnc,Pareto solution
+2030,continue_Half of depop_No solar_Hardwood_Selective_Normal_Conifer,nsnc,Pareto solution
+2030,continue_Same as depop_No solar_Hardwood_Selective_Normal_Conifer,nsnc,Pareto solution
+2030,continue_Same as depop_No solar_Natural_Selective_Normal_Conifer,nsnc,Pareto solution
+2030,continue_No abandonment_No solar_Natural_Selective_Long_Hardwood,nsnc,Pareto solution
+2030,continue_Half of depop_No solar_Hardwood_Selective_Long_Hardwood,nsnc,Pareto solution
+2030,continue_Half of depop_No solar_Natural_Selective_Long_Hardwood,nsnc,Pareto solution
+2030,continue_No abandonment_No solar_Natural_Selective_Long_Conifer,nsnc,Pareto solution
+2030,continue_Half of depop_No solar_Hardwood_Selective_Long_Conifer,nsnc,Pareto solution
+2030,continue_Half of depop_No solar_Natural_Selective_Long_Conifer,nsnc,Pareto solution
+2030,abandon_No abandonment_No solar_Natural_Selective_Long_Natural,nsnc,Pareto solution
+2030,abandon_No abandonment_No solar_Natural_Selective_Long_Hardwood,nsnc,Pareto solution
+2030,abandon_Half of depop_No solar_Natural_Selective_Long_Hardwood,nsnc,Pareto solution
+2030,abandon_Same as depop_No solar_Natural_Selective_Long_Hardwood,nsnc,Pareto solution
+2030,abandon_No abandonment_No solar_Natural___,nsnc,Pareto solution
+2050,abandon_No abandonment_No solar_Natural___,nnns,Pareto solution
+2050,continue_Same as depop_No solar_Natural_Selective_Normal_Conifer,nnns,Pareto solution
+2050,continue_Half of depop_No solar_Natural_Selective_Normal_Conifer,nnns,Pareto solution
+2050,continue_No abandonment_No solar_Natural_Selective_Normal_Hardwood,nnns,Pareto solution
+2050,continue_No abandonment_No solar_Natural_Selective_Normal_Conifer,nnns,Pareto solution
+2050,continue_Same as depop_Solar 50%_Hardwood_Selective_Normal_Conifer,nnns,Pareto solution
+2050,continue_Same as depop_Solar 50%_Natural_Selective_Normal_Conifer,nnns,Pareto solution
+2050,abandon_No abandonment_No solar_Natural___,nnnc,Pareto solution
+2050,continue_Same as depop_Solar 50%_Natural_Selective_Normal_Conifer,nsnc,Pareto solution
+2050,continue_Same as depop_Solar 50%_Hardwood_Selective_Normal_Conifer,nsnc,Pareto solution
+2050,continue_Half of depop_Solar 50%_Natural_Selective_Normal_Conifer,nsnc,Pareto solution
+2050,continue_Half of depop_Solar 50%_Natural_Selective_Long_Hardwood,nsnc,Pareto solution
+2050,continue_Half of depop_Solar 50%_Hardwood_Selective_Long_Hardwood,nsnc,Pareto solution
+2050,continue_No abandonment_No solar_Natural_Selective_Normal_Conifer,nsnc,Pareto solution
+2050,continue_Half of depop_No solar_Natural_Selective_Normal_Conifer,nsnc,Pareto solution
+2050,continue_Half of depop_No solar_Hardwood_Selective_Normal_Conifer,nsnc,Pareto solution
+2050,continue_No abandonment_No solar_Natural_Selective_Long_Hardwood,nsnc,Pareto solution
+2050,continue_No abandonment_No solar_Natural_Selective_Long_Conifer,nsnc,Pareto solution
+2050,continue_Half of depop_No solar_Natural_Selective_Long_Hardwood,nsnc,Pareto solution
+2050,continue_Half of depop_No solar_Natural_Selective_Long_Conifer,nsnc,Pareto solution
+2050,continue_Same as depop_No solar_Natural_Selective_Long_Hardwood,nsnc,Pareto solution
+2050,continue_Same as depop_No solar_Hardwood_Selective_Long_Hardwood,nsnc,Pareto solution
+2050,continue_Same as depop_No solar_Natural_Selective_Long_Conifer,nsnc,Pareto solution
+2050,abandon_Half of depop_No solar_Hardwood_Selective_Normal_Hardwood,nsnc,Pareto solution
+2050,abandon_Half of depop_No solar_Hardwood_Selective_Normal_Natural,nsnc,Pareto solution
+2050,abandon_Half of depop_No solar_Natural_Selective_Normal_Natural,nsnc,Pareto solution
+2050,abandon_Half of depop_No solar_Natural_Selective_Long_Hardwood,nsnc,Pareto solution
+2050,abandon_Half of depop_No solar_Natural_Selective_Long_Natural,nsnc,Pareto solution
+2050,abandon_Same as depop_No solar_Natural_Selective_Long_Natural,nsnc,Pareto solution
+2050,abandon_Same as depop_No solar_Hardwood_Selective_Long_Natural,nsnc,Pareto solution
+2050,abandon_No abandonment_No solar_Natural___,nsnc,Pareto solution
+2090,continue_Same as depop_No solar_Hardwood_Selective_Normal_Conifer,nnns,Pareto solution
+2090,continue_Same as depop_No solar_Natural_Selective_Normal_Conifer,nnns,Pareto solution
+2090,continue_Half of depop_No solar_Hardwood_Selective_Normal_Conifer,nnns,Pareto solution
+2090,continue_Half of depop_No solar_Natural_Selective_Normal_Conifer,nnns,Pareto solution
+2090,continue_Same as depop_Solar 50%_Hardwood_Selective_Normal_Conifer,nnns,Pareto solution
+2090,continue_Same as depop_Solar 50%_Natural_Selective_Normal_Conifer,nnns,Pareto solution
+2090,continue_Half of depop_Solar 50%_Natural_Selective_Normal_Conifer,nnns,Pareto solution
+2090,continue_Same as depop_No solar_Hardwood_Selective_Normal_Conifer,nnnc,Pareto solution
+2090,continue_Same as depop_No solar_Hardwood_Selective_Long_Conifer,nnnc,Pareto solution
+2090,abandon_No abandonment_No solar_Natural___,nnnc,Pareto solution
+2090,continue_Half of depop_Solar 50%_Natural_Selective_Normal_Conifer,nsnc,Pareto solution
+2090,continue_Half of depop_Solar 50%_Natural_Selective_Long_Hardwood,nsnc,Pareto solution
+2090,continue_Half of depop_Solar 50%_Hardwood_Selective_Long_Hardwood,nsnc,Pareto solution
+2090,continue_No abandonment_No solar_Natural_Selective_Normal_Conifer,nsnc,Pareto solution
+2090,continue_Half of depop_No solar_Natural_Selective_Normal_Conifer,nsnc,Pareto solution
+2090,continue_Same as depop_No solar_Natural_Selective_Normal_Conifer,nsnc,Pareto solution
+2090,continue_Same as depop_No solar_Hardwood_Selective_Normal_Conifer,nsnc,Pareto solution
+2090,continue_Same as depop_No solar_Natural_Selective_Long_Conifer,nsnc,Pareto solution
+2090,abandon_No abandonment_No solar_Natural___,nsnc,Pareto solution

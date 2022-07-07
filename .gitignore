@@ -1,0 +1,9 @@
+# History files
+.Rhistory
+.Rproj.user
+.RData
+.RDataTmp
+.Ruserdata
+
+# Mac files
+.DS_store

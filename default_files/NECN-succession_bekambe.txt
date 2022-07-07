@@ -1,0 +1,113 @@
+LandisData	"NECN Succession"
+
+>> Date:    19/10/09
+>> Version: bekambe nature for society screening simulation
+
+Timestep  1
+SeedingAlgorithm  			WardSeedDispersal
+InitialCommunities      	../../ini/init-communities-bekanbe_necn_v6.txt
+InitialCommunitiesMap   	../../input/ic_bek_lii7_v5.tif
+ClimateConfigFile
+
+SoilDepthMapName			../../input/condition_soildepth.tif
+SoilDrainMapName			../../input/condition_soildrain.tif
+SoilBaseFlowMapName			../../input/condition_bflow.tif
+SoilStormFlowMapName		../../input/condition_sflow.tif
+SoilFieldCapacityMapName	../../input/condition_fcap.tif
+SoilWiltingPointMapName		../../input/condition_wiltpoint.tif
+SoilPercentSandMapName		../../input/condition_sandpct.tif
+SoilPercentClayMapName		../../input/condition_claypct.tif
+InitialSOM1CsurfMapName		../../input/condition_som1csurf.tif
+InitialSOM1NsurfMapName		../../input/condition_som1nsurf.tif
+InitialSOM1CsoilMapName		../../input/condition_som1csoil.tif
+InitialSOM1NsoilMapName		../../input/condition_som1nsoil.tif
+InitialSOM2CMapName			../../input/condition_som2c.tif
+InitialSOM2NMapName			../../input/condition_som2n.tif
+InitialSOM3CMapName			../../input/condition_som3c.tif
+InitialSOM3NMapName			../../input/condition_som3n.tif
+InitialDeadWoodSurfaceMapName	../../input/condition_inideadw.tif	<< NEW, Default
+InitialDeadCoarseRootsMapName	../../input/condition_inideadcroot.tif	<< NEW, Default
+
+CalibrateMode 			no
+SmokeModelOutputs		no
+WaterDecayFunction		Ratio
+
+ProbabilityEstablishAdjust 	1.0
+InitialMineralN			65.8
+InitialFineFuels		0.1		<< Default
+>> AtmosphericNSlope		0.0058
+>> AtmosphericNIntercept	0.024
+AtmosphericNSlope		-1
+AtmosphericNIntercept	-1
+Latitude				43.13
+DenitrificationRate		0.001
+DecayRateSurf 4.34050738
+DecayRateSOM1 0.10408273
+DecayRateSOM2 0.02843875
+DecayRateSOM3 0.00498579
+
+MaximumLAI
+>> Shade	Max LAI
+>> Class
+>> ----------	--------------------
+	1	1
+	2	2.5
+	3	3.5
+	4	6
+	5	8
+
+
+LightEstablishmentTable
+
+>>	Spp Shade	Probability
+>>	Class		by Actual Shade
+>>	 ----------	--------------------
+>>		0		1		2		3		4		5
+	1	1.0		0.5		0.02	0.0		0.0		0.0
+	2	0.6		1.0		0.5		0.02	0.0		0.0
+	3	0.01	0.6		1.0		0.5		0.02	0.0
+	4	0.0		0.01	0.6		1.0		0.5		0.02
+	5	0.0		0.0		0.01	0.5		1.0		1.0
+
+
+SpeciesParameters
+>> Species  Funct	N		GDD		GDD		Min		Max		Leaf	Epi-	Leaf		FRoot	Wood	CRoot	Leaf  		FRoot 	Wood  	CRoot 	Littr	Monthly	Max
+>>	    	ional	Fixer	Min		Max		Jan		Drought	Long	cormic	Lign%		Lign%	Lign%	Lign%	CN    		CN    	CN    	CN    	CN		maxNPP	Biom
+>> 	    	Type							Temp					re-
+betuplat	1	N	484	2036	-28	0.50	1	N	0.21	0.27	0.20	0.25	24	26	384	50	65	713	24007
+fraxmand	2	N	1000	2261	-18	0.50	1	Y	0.13	0.27	0.20	0.25	20	26	189	50	65	571	20788
+quercris	3	N	1100	4571	-17	0.67	1	Y	0.20	0.33	0.23	0.30	22	58	345	113	32	961	28591
+ulmudavi	4	N	1204	6960	-20	0.33	1	Y	0.14	0.27	0.20	0.25	19	26	417	50	65	785	23424
+alnujapo	5	Y	400	2950	-7	0.17	1	N	0.22	0.15	0.26	0.25	21	28	250	90	28	379	25410
+larikaem	6	N	280	2660	-29	0.83	1	N	0.21	0.23	0.31	0.20	30	26	600	50	74	390	28699
+abiesach	7	N	560	2386	-25	0.67	3	N	0.22	0.23	0.31	0.20	44	43	482	84	74	735	53183
+pastgras	8	N	400	4000	-10	0.99	1	N	0.25	0.20	0.25	0.25	20	30	333	222	50	818	818
+sasagras	9	N	400	4000	-10	0.97	1	Y	0.25	0.20	0.25	0.25	20	28	333	222	50	454	1059
+
+
+
+FunctionalGroupParameters  <<from tree.100
+>> Name		Index	PPDF1	PPDF2	PPDF3	PPDF4	FCFRAC	BTOLAI	KLAI	MAXLAI	PPRPTS2	PPRPTS3	Wood	Monthly	Mort	Drop   CRootFrac 	FRootFRac
+>> 					T-Mean	T-Max	T-shape	T-shape	leaf											DecayR	WoodMortShape	Month
+f_betuplat	1	22	42	1	3.5	0.30	-0.9	11601	6	0.4	0.96	0.2	0.0011	25	9	0.2	0.5
+f_fraxmand	2	22	42	1	3.5	0.40	-0.9	19917	10	0.5	0.96	0.2	0.0026	25	9	0.2	0.5
+f_quercris	3	22	42	1	3.5	0.40	-0.9	8828	10	0.5	0.96	0.2	0.0050	25	9	0.2	0.5
+f_ulmudavi	4	22	42	1	3.5	0.40	-0.9	16986	10	0.5	0.96	0.2	0.0060	25	9	0.2	0.5
+f_alnujapo	5	22	42	1	3.5	0.32	-0.9	15137	8	0.1	0.20	0.04	0.0003	25	10	0.2	0.5
+f_larikaem	6	18	35	1	3	0.48	-0.9	4066	5	0.4	0.96	0.1	0.0005	25	10	0.23	0.2
+f_abiesach	7	18	35	1	3	0.48	-0.9	5654	5	0.4	0.96	0.1	0.0048	25	10	0.23	0.2
+f_pastgras	8	15	32	1	3.5	0.99	-0.9	689	0	1	0.80	1	0.0034	25	9	0.25	0.35
+f_sasagras	9	15	32	1	3.5	0.99	-0.9	676	0	1	0.80	1	0.0031	25	9	0.25	0.35
+
+
+FireReductionParameters
+>>	Severity	WoodLitter	Litter	SOM
+>>	Fire		Reduct		Reduct	Reduction
+	1		0.0		0.5	0.5
+	2		0.0		0.75	0.5
+	3		0.0		1.0	0.5
+
+HarvestReductionParameters
+>>  Name    WoodLitter  Litter  SOM         CohortWood  CohortLeaf
+>>          Reduct      Reduct  Reduction   Removal     Removal
+Agriculture 0           0       0           1           1

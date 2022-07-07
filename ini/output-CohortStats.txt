@@ -1,0 +1,42 @@
+LandisData  "Output Cohort Statistics"
+
+
+Timestep   1
+
+
+>>--------------------------------
+>> OUPUT STATISTICS (Descriptive)
+>>--------------------------------
+
+>> ---- STAT1 ------------------------------------------------
+
+SpeciesAgeStats
+MapNames   OutputMaps/CohortStats/age-per-spp/{species}-{statistic}-{timestep}.img
+
+MIN	betuplat fraxmand quercris ulmudavi alnujapo larikaem abiesach pastgras  sasagras << minimum age for each species
+MAX	betuplat fraxmand quercris ulmudavi alnujapo larikaem abiesach pastgras  sasagras << maximum age for each species
+MED	betuplat fraxmand quercris ulmudavi alnujapo larikaem abiesach pastgras  sasagras << median age for each species
+SD	betuplat fraxmand quercris ulmudavi alnujapo larikaem abiesach pastgras  sasagras << standard deviation age for each species
+AVG	betuplat fraxmand quercris ulmudavi alnujapo larikaem abiesach pastgras  sasagras << average age for each species
+
+>> ---- STAT2 -----------------------------------------------------
+
+SiteAgeStats
+MapNames   OutputMaps/CohortStats/age-all-spp/AGE-{statistic}-{timestep}.img
+
+MIN 		<< minimum age across all species on site
+MAX			<< maximum age across all species on site
+MED			<< median age across all species on site
+AVG			<< average age across all species on site
+SD
+RICH   		<< number of age classes across all species on site
+EVEN   		<< evenness 
+COUNT   	<< count of cohorts
+
+>> ---- STAT3 ----------------------------------------------------------
+
+SiteSpeciesStats
+MapNames   OutputMaps/CohortStats/spp-counts/SPP-{statistic}-{timestep}.img
+
+RICH   			<<count of species
+

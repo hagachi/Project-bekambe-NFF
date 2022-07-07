@@ -1,0 +1,154 @@
+scenario,decades,nn,ns,nc,ispareto,isparetosize
+abandon_Half of depop_No solar_Hardwood_Selective_Long_Hardwood,2030,0.4004635393147158,0.1941258313528959,0.7692350438047051,The others,5
+abandon_Half of depop_No solar_Hardwood_Selective_Long_Hardwood,2050,0.3903501741703906,0.20238759557301847,0.7631235722384674,The others,5
+abandon_Half of depop_No solar_Hardwood_Selective_Long_Hardwood,2090,0.5469682458117944,0.19610979747864854,0.8794301091395345,The others,5
+abandon_Half of depop_No solar_Hardwood_Selective_Long_Natural,2030,0.38834064503026045,0.1939699113281955,0.7689728656288908,The others,5
+abandon_Half of depop_No solar_Hardwood_Selective_Long_Natural,2050,0.3716820287464697,0.20240810189073027,0.7634251420804045,The others,5
+abandon_Half of depop_No solar_Hardwood_Selective_Long_Natural,2090,0.5032754984584394,0.19610266680842403,0.8805521134564396,The others,5
+abandon_Half of depop_No solar_Hardwood_Selective_Normal_Hardwood,2030,0.39544452439369626,0.19416180164392227,0.7667256512543659,The others,5
+abandon_Half of depop_No solar_Hardwood_Selective_Normal_Hardwood,2050,0.37992838993403216,0.20269514706128333,0.7625058158349619,Pareto solution,20
+abandon_Half of depop_No solar_Hardwood_Selective_Normal_Hardwood,2090,0.5050336740131911,0.19612739116143488,0.8797287651202014,The others,5
+abandon_Half of depop_No solar_Hardwood_Selective_Normal_Natural,2030,0.39380164040593324,0.19421586102024893,0.7663165749503343,The others,5
+abandon_Half of depop_No solar_Hardwood_Selective_Normal_Natural,2050,0.3794746080361153,0.2026252811601473,0.7626063815957146,Pareto solution,20
+abandon_Half of depop_No solar_Hardwood_Selective_Normal_Natural,2090,0.5034034268603057,0.19649037022021376,0.8811243692803807,The others,5
+abandon_Half of depop_No solar_Natural_Selective_Long_Hardwood,2030,0.4016526760282679,0.1942505454745603,0.769322242857231,Pareto solution,20
+abandon_Half of depop_No solar_Natural_Selective_Long_Hardwood,2050,0.39069967138662914,0.2025458722214339,0.7634299527469652,Pareto solution,20
+abandon_Half of depop_No solar_Natural_Selective_Long_Hardwood,2090,0.5493760351088981,0.19622763508321658,0.8796918992390171,The others,5
+abandon_Half of depop_No solar_Natural_Selective_Long_Natural,2030,0.3884302460640481,0.1940460916976856,0.7690137479356689,The others,5
+abandon_Half of depop_No solar_Natural_Selective_Long_Natural,2050,0.37141071267861586,0.20232451334896506,0.7634500614592594,Pareto solution,20
+abandon_Half of depop_No solar_Natural_Selective_Long_Natural,2090,0.5092449855550031,0.1959457222502425,0.880393665124181,The others,5
+abandon_Half of depop_No solar_Natural_Selective_Normal_Hardwood,2030,0.39662227654177107,0.19417552517901657,0.7667584807031963,The others,5
+abandon_Half of depop_No solar_Natural_Selective_Normal_Hardwood,2050,0.3834066708937554,0.20263492315637013,0.7623719204563779,The others,5
+abandon_Half of depop_No solar_Natural_Selective_Normal_Hardwood,2090,0.5092057498122899,0.19602667404372343,0.8786259097392389,The others,5
+abandon_Half of depop_No solar_Natural_Selective_Normal_Natural,2030,0.39561135038935613,0.19422875292605063,0.766349157192349,The others,5
+abandon_Half of depop_No solar_Natural_Selective_Normal_Natural,2050,0.3819493096374067,0.2025884599166543,0.7628576492356783,Pareto solution,20
+abandon_Half of depop_No solar_Natural_Selective_Normal_Natural,2090,0.5105981639213426,0.19629728629779664,0.8812142865116197,The others,5
+abandon_No abandonment_No solar_Natural___,2030,0.5888713964722535,0.056803640631522316,0.8491267990657588,Pareto solution,20
+abandon_No abandonment_No solar_Natural___,2050,0.611406095554658,0.08114634407897856,0.8864377369305696,Pareto solution,20
+abandon_No abandonment_No solar_Natural___,2090,0.7038445758340731,0.12940246533692235,0.9936383869277299,Pareto solution,20
+abandon_No abandonment_No solar_Natural_Selective_Long_Hardwood,2030,0.3844722888875511,0.21535048840308463,0.7678940964685572,Pareto solution,20
+abandon_No abandonment_No solar_Natural_Selective_Long_Hardwood,2050,0.3397945636289967,0.24976248746253682,0.752498983416783,The others,5
+abandon_No abandonment_No solar_Natural_Selective_Long_Hardwood,2090,0.3819935456015786,0.29028416963753384,0.8299489226594046,The others,5
+abandon_No abandonment_No solar_Natural_Selective_Long_Natural,2030,0.37061805012307475,0.21548576637429254,0.7673111540200387,Pareto solution,20
+abandon_No abandonment_No solar_Natural_Selective_Long_Natural,2050,0.32139770975640264,0.2495768642570182,0.7520596070117073,The others,5
+abandon_No abandonment_No solar_Natural_Selective_Long_Natural,2090,0.34939581839898237,0.2906345704748555,0.8311250795203621,The others,5
+abandon_No abandonment_No solar_Natural_Selective_Normal_Hardwood,2030,0.3789578005953097,0.21550936453661612,0.7651519099175293,The others,5
+abandon_No abandonment_No solar_Natural_Selective_Normal_Hardwood,2050,0.3318486726787189,0.24963829495139586,0.7515439105724575,The others,5
+abandon_No abandonment_No solar_Natural_Selective_Normal_Hardwood,2090,0.34797473284694724,0.29045114424660967,0.8298435906306545,The others,5
+abandon_No abandonment_No solar_Natural_Selective_Normal_Natural,2030,0.3779300334741308,0.21556580453186844,0.764852157127908,The others,5
+abandon_No abandonment_No solar_Natural_Selective_Normal_Natural,2050,0.3316956695958852,0.24967157877293059,0.752173545236056,The others,5
+abandon_No abandonment_No solar_Natural_Selective_Normal_Natural,2090,0.35053915218388415,0.2905910542016781,0.8318146440225552,The others,5
+abandon_Same as depop_No solar_Hardwood_Selective_Long_Hardwood,2030,0.41389413597366165,0.17357967097004207,0.7707269443378582,The others,5
+abandon_Same as depop_No solar_Hardwood_Selective_Long_Hardwood,2050,0.43840734566679673,0.15623526257881576,0.7750575900754147,The others,5
+abandon_Same as depop_No solar_Hardwood_Selective_Long_Hardwood,2090,0.684187576257775,0.12882611386945103,0.9318365555357744,The others,5
+abandon_Same as depop_No solar_Hardwood_Selective_Long_Natural,2030,0.4002184462796098,0.17358367385403145,0.7705632027102111,The others,5
+abandon_Same as depop_No solar_Hardwood_Selective_Long_Natural,2050,0.4199189671884067,0.15639984084826852,0.7752008472473704,Pareto solution,20
+abandon_Same as depop_No solar_Hardwood_Selective_Long_Natural,2090,0.6477214713770141,0.12909825312496032,0.9344961465075414,The others,5
+abandon_Same as depop_No solar_Hardwood_Selective_Normal_Hardwood,2030,0.40895425313060585,0.17345316688651083,0.7681198738518418,The others,5
+abandon_Same as depop_No solar_Hardwood_Selective_Normal_Hardwood,2050,0.42930441517284973,0.15625659025397426,0.7742225139408817,The others,5
+abandon_Same as depop_No solar_Hardwood_Selective_Normal_Hardwood,2090,0.6478964841754793,0.12886605263099446,0.9321796580412234,The others,5
+abandon_Same as depop_No solar_Hardwood_Selective_Normal_Natural,2030,0.4070875755841425,0.17394954073672617,0.7677955620791114,The others,5
+abandon_Same as depop_No solar_Hardwood_Selective_Normal_Natural,2050,0.4298637114700598,0.1562317407058186,0.7745230713859478,The others,5
+abandon_Same as depop_No solar_Hardwood_Selective_Normal_Natural,2090,0.646601827815192,0.12903781382079366,0.934181543220668,The others,5
+abandon_Same as depop_No solar_Natural_Selective_Long_Hardwood,2030,0.41575980202615925,0.17364726959134286,0.7708114295967143,Pareto solution,20
+abandon_Same as depop_No solar_Natural_Selective_Long_Hardwood,2050,0.4426180999481378,0.15617227454656094,0.7747511687312012,The others,5
+abandon_Same as depop_No solar_Natural_Selective_Long_Hardwood,2090,0.6931218476897895,0.12878703418624726,0.9314910259088611,The others,5
+abandon_Same as depop_No solar_Natural_Selective_Long_Natural,2030,0.401971759422389,0.17354792722113693,0.7704126702032973,The others,5
+abandon_Same as depop_No solar_Natural_Selective_Long_Natural,2050,0.4224028547935634,0.15648592653529889,0.7748649496421216,Pareto solution,20
+abandon_Same as depop_No solar_Natural_Selective_Long_Natural,2090,0.6531187709756542,0.1291666923342512,0.9351985652160261,The others,5
+abandon_Same as depop_No solar_Natural_Selective_Normal_Hardwood,2030,0.4104534536345297,0.17365312264317193,0.7680363790646402,The others,5
+abandon_Same as depop_No solar_Natural_Selective_Normal_Hardwood,2050,0.43256703404580105,0.15622108642073793,0.7739912837562585,The others,5
+abandon_Same as depop_No solar_Natural_Selective_Normal_Hardwood,2090,0.6495391652502446,0.12878173094898446,0.9314961591501694,The others,5
+abandon_Same as depop_No solar_Natural_Selective_Normal_Natural,2030,0.40835978369030845,0.17348180988471074,0.767640782109635,The others,5
+abandon_Same as depop_No solar_Natural_Selective_Normal_Natural,2050,0.43128376866743573,0.1561419023199728,0.77378729400872,The others,5
+abandon_Same as depop_No solar_Natural_Selective_Normal_Natural,2090,0.6485732419896091,0.1292045609265273,0.9326843680285605,The others,5
+continue_Half of depop_No solar_Hardwood_Selective_Long_Conifer,2030,0.3932030884581358,0.22231244277957904,0.7660519036033411,Pareto solution,20
+continue_Half of depop_No solar_Hardwood_Selective_Long_Conifer,2050,0.3781104466929181,0.2713197145211071,0.750494714966307,The others,5
+continue_Half of depop_No solar_Hardwood_Selective_Long_Conifer,2090,0.5768207710670111,0.3202611449362515,0.8604923925103449,The others,5
+continue_Half of depop_No solar_Hardwood_Selective_Long_Hardwood,2030,0.39073903663081483,0.25687256783556345,0.7605507810062211,Pareto solution,20
+continue_Half of depop_No solar_Hardwood_Selective_Long_Hardwood,2050,0.38701310884467566,0.29098176972293893,0.743368602483221,The others,5
+continue_Half of depop_No solar_Hardwood_Selective_Long_Hardwood,2090,0.5661451653262897,0.31191744501038626,0.8550914985737742,The others,5
+continue_Half of depop_No solar_Hardwood_Selective_Normal_Conifer,2030,0.382618206717078,0.30786998315681036,0.7347218893586102,Pareto solution,20
+continue_Half of depop_No solar_Hardwood_Selective_Normal_Conifer,2050,0.3964230856892023,0.3427810862627963,0.7250647984014302,Pareto solution,20
+continue_Half of depop_No solar_Hardwood_Selective_Normal_Conifer,2090,0.6136453267944268,0.40659268507159585,0.8506836527786672,Pareto solution,20
+continue_Half of depop_No solar_Hardwood_Selective_Normal_Hardwood,2030,0.38468739855036516,0.3059119193616698,0.7340630988162025,Pareto solution,20
+continue_Half of depop_No solar_Hardwood_Selective_Normal_Hardwood,2050,0.3941287326196205,0.3377685506179808,0.7223211721858753,The others,5
+continue_Half of depop_No solar_Hardwood_Selective_Normal_Hardwood,2090,0.5810054400244802,0.3739006461657416,0.8361567470560484,The others,5
+continue_Half of depop_No solar_Natural_Selective_Long_Conifer,2030,0.39504917960459873,0.21963065924515665,0.7661852100157973,Pareto solution,20
+continue_Half of depop_No solar_Natural_Selective_Long_Conifer,2050,0.3809837820478428,0.27234883856073505,0.7508708604173819,Pareto solution,20
+continue_Half of depop_No solar_Natural_Selective_Long_Conifer,2090,0.5717942802449337,0.3327935306516925,0.861193026232143,The others,5
+continue_Half of depop_No solar_Natural_Selective_Long_Hardwood,2030,0.39300172111418985,0.2544144595192173,0.7606603846152717,Pareto solution,20
+continue_Half of depop_No solar_Natural_Selective_Long_Hardwood,2050,0.3885981063091714,0.29175907335317347,0.7434349394182014,Pareto solution,20
+continue_Half of depop_No solar_Natural_Selective_Long_Hardwood,2090,0.5602900049210678,0.3222677520183119,0.8546134658195235,The others,5
+continue_Half of depop_No solar_Natural_Selective_Normal_Conifer,2030,0.3824614520693035,0.3052421469673901,0.7346555455719996,The others,5
+continue_Half of depop_No solar_Natural_Selective_Normal_Conifer,2050,0.39644798542522247,0.34417818275242,0.7247215426935311,Pareto solution,20
+continue_Half of depop_No solar_Natural_Selective_Normal_Conifer,2090,0.6024424965853925,0.418452048931704,0.8509215095859061,Pareto solution,20
+continue_Half of depop_No solar_Natural_Selective_Normal_Hardwood,2030,0.384901872152627,0.30369615685675305,0.7339613830778455,Pareto solution,20
+continue_Half of depop_No solar_Natural_Selective_Normal_Hardwood,2050,0.39468548934615955,0.3389505513392377,0.7220708681591759,The others,5
+continue_Half of depop_No solar_Natural_Selective_Normal_Hardwood,2090,0.5780832198521008,0.3851693652238976,0.8365692064209826,The others,5
+continue_Half of depop_Solar 50%_Hardwood_Selective_Long_Hardwood,2030,0.3654097875328179,0.330024634610378,0.7243177878181767,Pareto solution,20
+continue_Half of depop_Solar 50%_Hardwood_Selective_Long_Hardwood,2050,0.3382692529652745,0.4302155333796115,0.6671068407355898,Pareto solution,20
+continue_Half of depop_Solar 50%_Hardwood_Selective_Long_Hardwood,2090,0.4590221040907977,0.6253103783783327,0.6731276283451582,Pareto solution,20
+continue_Half of depop_Solar 50%_Hardwood_Selective_Normal_Conifer,2030,0.3553600907413949,0.3809388703103695,0.6984661073746221,Pareto solution,20
+continue_Half of depop_Solar 50%_Hardwood_Selective_Normal_Conifer,2050,0.34458249772617094,0.4814859795063301,0.648100296740893,The others,5
+continue_Half of depop_Solar 50%_Hardwood_Selective_Normal_Conifer,2090,0.5052166075891549,0.7190769324016937,0.668786269124634,The others,5
+continue_Half of depop_Solar 50%_Hardwood_Selective_Normal_Hardwood,2030,0.35894073046528896,0.37928926927185524,0.6977516624108332,Pareto solution,20
+continue_Half of depop_Solar 50%_Hardwood_Selective_Normal_Hardwood,2050,0.3423794855597283,0.47678345603086303,0.6457054700242242,The others,5
+continue_Half of depop_Solar 50%_Hardwood_Selective_Normal_Hardwood,2090,0.4701332914392208,0.6862795551930732,0.6540369027558535,The others,5
+continue_Half of depop_Solar 50%_Natural_Selective_Long_Hardwood,2030,0.3667364722688328,0.32865730321684156,0.7242955468785799,Pareto solution,20
+continue_Half of depop_Solar 50%_Natural_Selective_Long_Hardwood,2050,0.33894069272346544,0.43099101400542345,0.6668178954333016,Pareto solution,20
+continue_Half of depop_Solar 50%_Natural_Selective_Long_Hardwood,2090,0.4612024927851478,0.6271350442056891,0.6729469557912804,Pareto solution,20
+continue_Half of depop_Solar 50%_Natural_Selective_Normal_Conifer,2030,0.35675695164213933,0.37955375975843963,0.6984692308957747,Pareto solution,20
+continue_Half of depop_Solar 50%_Natural_Selective_Normal_Conifer,2050,0.3460665281732006,0.4829939793138011,0.648377888892023,Pareto solution,20
+continue_Half of depop_Solar 50%_Natural_Selective_Normal_Conifer,2090,0.5075388035389654,0.7207940717006346,0.6690604157279942,Pareto solution,20
+continue_Half of depop_Solar 50%_Natural_Selective_Normal_Hardwood,2030,0.35840720603589366,0.37782241531810423,0.6976720009736678,The others,5
+continue_Half of depop_Solar 50%_Natural_Selective_Normal_Hardwood,2050,0.34331523271058234,0.4777789755612342,0.6453912175408145,The others,5
+continue_Half of depop_Solar 50%_Natural_Selective_Normal_Hardwood,2090,0.4711155546275253,0.6881625074834434,0.6544587176106597,The others,5
+continue_No abandonment_No solar_Natural_Selective_Long_Conifer,2030,0.37822542480116306,0.24106972022545675,0.7646469091470087,Pareto solution,20
+continue_No abandonment_No solar_Natural_Selective_Long_Conifer,2050,0.3364207266532413,0.31097611408620945,0.7400914954631341,Pareto solution,20
+continue_No abandonment_No solar_Natural_Selective_Long_Conifer,2090,0.42126161957985975,0.39939256386876376,0.8118703111057489,The others,5
+continue_No abandonment_No solar_Natural_Selective_Long_Hardwood,2030,0.37499167305444037,0.2755742202124864,0.759060145558059,Pareto solution,20
+continue_No abandonment_No solar_Natural_Selective_Long_Hardwood,2050,0.3445054682828404,0.3304516281825843,0.7325943661111729,Pareto solution,20
+continue_No abandonment_No solar_Natural_Selective_Long_Hardwood,2090,0.4158639951378703,0.39081565164088755,0.8056830522880977,The others,5
+continue_No abandonment_No solar_Natural_Selective_Normal_Conifer,2030,0.3658939624405823,0.3267542893300385,0.73321527124983,Pareto solution,20
+continue_No abandonment_No solar_Natural_Selective_Normal_Conifer,2050,0.3501930274883858,0.38249153346083026,0.7139967860537733,Pareto solution,20
+continue_No abandonment_No solar_Natural_Selective_Normal_Conifer,2090,0.4469135840187457,0.4851133786347407,0.8000787877172887,Pareto solution,20
+continue_No abandonment_No solar_Natural_Selective_Normal_Hardwood,2030,0.3675735577290811,0.32501148566393945,0.7323851304815264,Pareto solution,20
+continue_No abandonment_No solar_Natural_Selective_Normal_Hardwood,2050,0.35019717598448874,0.37721327739208943,0.7113117029068707,Pareto solution,20
+continue_No abandonment_No solar_Natural_Selective_Normal_Hardwood,2090,0.42650879153972454,0.45229486661529206,0.7868034969547285,The others,5
+continue_Same as depop_No solar_Hardwood_Selective_Long_Conifer,2030,0.40885812811320155,0.20301492307570274,0.7675534720607007,Pareto solution,20
+continue_Same as depop_No solar_Hardwood_Selective_Long_Conifer,2050,0.4220748094349569,0.2313761086159205,0.7619880567809718,The others,5
+continue_Same as depop_No solar_Hardwood_Selective_Long_Conifer,2090,0.708548820648328,0.26305041678636093,0.9120916541140006,Pareto solution,20
+continue_Same as depop_No solar_Hardwood_Selective_Long_Hardwood,2030,0.4052642313624342,0.23756334200280096,0.7618590052308386,Pareto solution,20
+continue_Same as depop_No solar_Hardwood_Selective_Long_Hardwood,2050,0.43042735746343214,0.2510826624766361,0.7550933803054786,Pareto solution,20
+continue_Same as depop_No solar_Hardwood_Selective_Long_Hardwood,2090,0.6954003591521227,0.25527230542280843,0.9076419374589174,The others,5
+continue_Same as depop_No solar_Hardwood_Selective_Normal_Conifer,2030,0.39511788793624303,0.28870416759669265,0.7361253515163758,Pareto solution,20
+continue_Same as depop_No solar_Hardwood_Selective_Normal_Conifer,2050,0.44055362074471366,0.30317604944485665,0.736669517575159,The others,5
+continue_Same as depop_No solar_Hardwood_Selective_Normal_Conifer,2090,0.7500373364260379,0.34944836985494737,0.904568263834001,Pareto solution,20
+continue_Same as depop_No solar_Hardwood_Selective_Normal_Hardwood,2030,0.39808861839120147,0.2871223699335735,0.7353368050762554,Pareto solution,20
+continue_Same as depop_No solar_Hardwood_Selective_Normal_Hardwood,2050,0.4357306547716075,0.2981150302430126,0.733453181499784,The others,5
+continue_Same as depop_No solar_Hardwood_Selective_Normal_Hardwood,2090,0.709972572007816,0.3179577217043416,0.8889030718546541,The others,5
+continue_Same as depop_No solar_Natural_Selective_Long_Conifer,2030,0.4105066180546855,0.19918270873118804,0.7676300445089294,Pareto solution,20
+continue_Same as depop_No solar_Natural_Selective_Long_Conifer,2050,0.42621886556941607,0.23533390335706894,0.762370986442156,Pareto solution,20
+continue_Same as depop_No solar_Natural_Selective_Long_Conifer,2090,0.6905421551907684,0.2874276242469083,0.9128592984230554,Pareto solution,20
+continue_Same as depop_No solar_Natural_Selective_Long_Hardwood,2030,0.40591338885708583,0.23381746132418377,0.7618537864811862,Pareto solution,20
+continue_Same as depop_No solar_Natural_Selective_Long_Hardwood,2050,0.4361864146651348,0.25512799227313965,0.7546593341945942,Pareto solution,20
+continue_Same as depop_No solar_Natural_Selective_Long_Hardwood,2090,0.67962618457242,0.27907701645815913,0.906182508719501,The others,5
+continue_Same as depop_No solar_Natural_Selective_Normal_Conifer,2030,0.398542794464989,0.285059619397564,0.7361595806162131,Pareto solution,20
+continue_Same as depop_No solar_Natural_Selective_Normal_Conifer,2050,0.44507707455812906,0.3079444431096453,0.7367229400095026,Pareto solution,20
+continue_Same as depop_No solar_Natural_Selective_Normal_Conifer,2090,0.7320868965796382,0.37552395256394056,0.9041915022843431,Pareto solution,20
+continue_Same as depop_No solar_Natural_Selective_Normal_Hardwood,2030,0.4010142724631586,0.28343917596744755,0.7353135522879182,Pareto solution,20
+continue_Same as depop_No solar_Natural_Selective_Normal_Hardwood,2050,0.44176414382086,0.301311285949037,0.7334511717796285,The others,5
+continue_Same as depop_No solar_Natural_Selective_Normal_Hardwood,2090,0.6997414707097735,0.341764811446124,0.8878547217396642,The others,5
+continue_Same as depop_Solar 50%_Hardwood_Selective_Normal_Conifer,2030,0.3547984490354689,0.40821420745222753,0.6701750275479038,Pareto solution,20
+continue_Same as depop_Solar 50%_Hardwood_Selective_Normal_Conifer,2050,0.34982225617408635,0.5809267688336183,0.588334695604736,Pareto solution,20
+continue_Same as depop_Solar 50%_Hardwood_Selective_Normal_Conifer,2090,0.5735992138454125,0.6573322168667418,0.6247467372470207,Pareto solution,20
+continue_Same as depop_Solar 50%_Hardwood_Selective_Normal_Hardwood,2030,0.356914462985783,0.4068116445284995,0.6695038953011397,Pareto solution,20
+continue_Same as depop_Solar 50%_Hardwood_Selective_Normal_Hardwood,2050,0.34329192084916443,0.5754214978118832,0.5854974089753586,The others,5
+continue_Same as depop_Solar 50%_Hardwood_Selective_Normal_Hardwood,2090,0.526540060213774,0.6245114683396317,0.6092547646182747,The others,5
+continue_Same as depop_Solar 50%_Natural_Selective_Normal_Conifer,2030,0.3552274197625033,0.40596582156698774,0.670210630810684,Pareto solution,20
+continue_Same as depop_Solar 50%_Natural_Selective_Normal_Conifer,2050,0.3485803639058826,0.5850044010722247,0.587998024587476,Pareto solution,20
+continue_Same as depop_Solar 50%_Natural_Selective_Normal_Conifer,2090,0.5688679892142137,0.6575962703092929,0.6244033754758869,Pareto solution,20
+continue_Same as depop_Solar 50%_Natural_Selective_Normal_Hardwood,2030,0.3573938903753962,0.40446733357638587,0.6694871074369466,Pareto solution,20
+continue_Same as depop_Solar 50%_Natural_Selective_Normal_Hardwood,2050,0.3455382186589734,0.5793013785069547,0.5854349626700426,The others,5
+continue_Same as depop_Solar 50%_Natural_Selective_Normal_Hardwood,2090,0.5241692646426384,0.624725984391678,0.6094415293676164,The others,5

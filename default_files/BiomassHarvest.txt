@@ -1,0 +1,611 @@
+﻿LandisData  "Biomass Harvest"
+
+Timestep    1
+
+ManagementAreas	replacehere
+Stands			"../../input/bekambe_bestmix_stdMap.tif"
+
+>> *****************************************************************************
+>> PRESCRIPTIONS
+
+>> 1.2.1.2.1 around_SelectiveCutting normal broadleaf (ID=1)
+Prescription around_selective_normal_broad
+	StandRanking	MaxCohortAge
+	>>MinimumAge		40
+	MinimumTimeSinceLastHarvest 15
+	>> 混交林化の択伐に優占樹種、優占樹齢の指定はいらないと思った。
+	SiteSelection Complete
+	CohortsRemoved 	SpeciesList
+		>> 択伐なら40%と30%？-> normalは複層林、longは択伐を用いた複層林化とする
+		larikaem	1-29(70%) 30-250(50%)
+		abiesach	1-49(70%) 50-250(50%)
+		pastgras	All
+		sasagras	All
+	Plant quercris
+
+>> 1.2.1.3.1 around_SelectiveCutting normal natural (ID=2)
+Prescription around_selective_normal_natural
+	StandRanking	MaxCohortAge
+	>>MinimumAge		40
+>>	MinimumAgeは植える樹種で決めていたが、天然更新の場合はどうするか。
+>>	ほぼ影響しないので40年で固定する
+	MinimumTimeSinceLastHarvest 15
+	>> 混交林化の択伐に優占樹種、優占樹齢の指定はいらないと思った。
+	SiteSelection Complete
+	CohortsRemoved 	SpeciesList
+		>> 択伐なら40%と30%？-> normalは複層林、longは択伐を用いた複層林化とする
+		larikaem	1-29(70%) 30-250(50%)
+		abiesach	1-49(70%) 50-250(50%)
+		pastgras	All
+		sasagras	All
+
+>> 1.2.2.2.1 around_SelectiveCutting long broadleaf (ID=3)
+Prescription around_selective_long_broad
+	StandRanking	MaxCohortAge
+	>>MinimumAge		40
+	MinimumTimeSinceLastHarvest 15
+	>> 混交林化の択伐に優占樹種、優占樹齢の指定はいらないと思った。
+	SiteSelection Complete
+	CohortsRemoved	SpeciesList
+		larikaem	1-29(40%) 30-250(30%)
+		abiesach	1-49(40%) 50-250(30%)
+		pastgras	All
+		sasagras	All
+	Plant quercris
+
+>> 1.2.2.3.1 around_SelectiveCutting long natural (ID=4)
+Prescription around_selective_long_natural
+	StandRanking	MaxCohortAge
+	>>MinimumAge		40
+	MinimumTimeSinceLastHarvest 15
+	>> 混交林化の択伐に優占樹種、優占樹齢の指定はいらないと思った。
+	SiteSelection Complete
+	CohortsRemoved	SpeciesList
+		larikaem	1-29(40%) 30-250(30%)
+		abiesach	1-49(40%) 50-250(30%)
+		pastgras	All
+		sasagras	All
+
+>> 2.1.1.1.1n continue_ClearCutting normal conifer ClearCutting national (ID=5)
+Prescription continue_clear_normal_conifer_national
+	StandRanking	MaxCohortAge
+	MinimumAge		30
+	SiteSelection PartialStandSpread	1	20
+		>> 皆伐は20haまで。
+	CohortsRemoved ClearCut
+	Plant larikaem
+
+>> 2.1.1.1.1p continue_ClearCutting normal conifer ClearCutting pref (ID=6)
+Prescription continue_clear_normal_conifer_pref
+	StandRanking	MaxCohortAge
+	MinimumAge		50
+	SiteSelection PartialStandSpread	1	20
+	CohortsRemoved ClearCut
+	Plant  abiesach
+
+
+>> 2.1.1.1.2 continue_ClearCutting normal conifer Thinning  (ID=7)
+>> (2.1.2.1.2（長伐期）も統合し、このprescriptionを使う)
+Prescription  continue_thinning_conifer
+	StandRanking  MaxCohortAge
+	MinimumTimeSinceLastHarvest 5
+
+	ForestTypeTable
+		Optional 17-21 highest larikaem
+		Optional 24-28 highest larikaem
+		Optional 32-36 highest larikaem
+		Optional 40-44 highest larikaem
+		Optional 22-26 highest abiesach
+		Optional 30-34 highest abiesach
+		Optional 38-42 highest abiesach
+		Optional 48-52 highest abiesach
+
+	SiteSelection Complete
+	MinTimeSinceDamage 5
+	CohortsRemoved	SpeciesList
+		>>Species 	Selection
+		>>-------	--------
+		betuplat	All
+		quercris	All
+		larikaem	17-21(26.5%) 24-28(26.5%) 32-36(26.5%) 40-44(26.5%)
+		alnujapo	All
+		fraxmand	All
+		abiesach	22-26(26.5%) 30-34(26.5%) 38-42(26.5%) 48-52(26.5%)
+		ulmudavi	All
+		pastgras	All
+		sasagras	All
+
+
+>> 2.1.1.2.1 continue_ClearCutting normal broadleaf ClearCutting (ID=8)
+Prescription continue_clear_normal_broad
+	StandRanking	MaxCohortAge
+	MinimumAge		40
+	SiteSelection PartialStandSpread	1	20
+	CohortsRemoved ClearCut
+	Plant quercris
+
+>> 2.1.1.2.2 continue_ClearCutting normal broadleaf Thinning  (ID=9)
+>> (2.1.2.2.2（長伐期）も統合し、このprescriptionを使う)
+>> 広葉樹の木材生産利用
+Prescription  continue_thinning_broad
+	StandRanking  MaxCohortAge
+	MinimumTimeSinceLastHarvest 5
+
+	ForestTypeTable
+		Optional 26-30 highest quercris betuplat alnujapo fraxmand ulmudavi
+		Optional 41-45 highest quercris betuplat alnujapo fraxmand ulmudavi
+		>> ミズナラ植林したところだけ対象にしたい？？このシナリオは保安林以外ミズナラ植林地になるからよい？？
+		>> ->この条件で対象樹齢の広葉樹のコホートが優先しているところだけになる
+		>> ->間伐で皆伐されるようなことを防ぐ
+
+	SiteSelection Complete
+	MinTimeSinceDamage 5
+	CohortsRemoved	SpeciesList
+		>>Species 	Selection
+		>>-------	--------
+		betuplat	26-30(26.5%) 41-45(26.5%)
+		quercris	26-30(26.5%) 41-45(26.5%)
+		larikaem	All
+		alnujapo	26-30(26.5%) 41-45(26.5%)
+		fraxmand	26-30(26.5%) 41-45(26.5%)
+		abiesach	All
+		ulmudavi	26-30(26.5%) 41-45(26.5%)
+		pastgras	All
+		sasagras	All
+
+
+
+>> 2.1.2.1.1n continue_ClearCutting long conifer ClearCutting national (ID=10)
+Prescription continue_clear_long_conifer_national
+	StandRanking	MaxCohortAge
+	MinimumAge		60
+	SiteSelection PartialStandSpread	1	20
+	CohortsRemoved ClearCut
+	Plant larikaem
+
+>> 2.1.2.1.1p continue_ClearCutting long conifer ClearCutting pref (ID=11)
+Prescription continue_clear_long_conifer_pref
+	StandRanking	MaxCohortAge
+	MinimumAge		100
+	SiteSelection PartialStandSpread	1	20
+	CohortsRemoved ClearCut
+	Plant  abiesach
+
+
+>> 2.1.2.1.2 continue_ClearCutting long conifer Thinning (2.1.1.1.2（normal）と統合) (ID=7)
+
+>> 2.1.2.2.1 continue_ClearCutting long broadleaf ClearCutting (ID=12)
+Prescription continue_clear_long_broad
+	StandRanking	MaxCohortAge
+	MinimumAge		80
+	SiteSelection PartialStandSpread	1	20
+	CohortsRemoved ClearCut
+	Plant quercris
+
+>> 2.1.2.2.2 continue_ClearCutting long broadleaf Thinning (2.1.1.2.2（normal）と統合) (ID=9)
+
+>> 2.2.1.1.1n continue_SelectiveCutting normal conifer national (ID=13)
+Prescription continue_selective_normal_conifer_national
+	StandRanking	MaxCohortAge
+	MinimumAge		30
+	MinimumTimeSinceLastHarvest 15
+	>> 全木本コホートを対象に択伐するなら、混交林化になる？
+	>> 混交林化の択伐に優占樹種、優占樹齢の指定はいらないと思った。
+	SiteSelection Complete
+	CohortsRemoved	SpeciesList
+		larikaem	1-29(70%) 30-250(50%)
+		abiesach	1-49(70%) 50-250(50%)
+		betuplat	1-39(70%) 40-250(50%)
+		quercris	1-39(70%) 40-250(50%)
+		alnujapo	1-39(70%) 40-250(50%)
+		fraxmand	1-39(70%) 40-250(50%)
+		ulmudavi	1-39(70%) 40-250(50%)
+		pastgras	All
+		sasagras	All
+	Plant larikaem
+	>> 全木本を対象に択伐をし、植栽樹種で場合分けをする
+
+>> 2.2.1.1.1p continue_SelectiveCutting normal conifer pref (ID=14)
+Prescription continue_selective_normal_conifer_pref
+	StandRanking	MaxCohortAge
+	MinimumAge		50
+	MinimumTimeSinceLastHarvest 15
+	>> 混交林化の択伐に優占樹種、優占樹齢の指定はいらないと思った。
+	SiteSelection Complete
+	CohortsRemoved	SpeciesList
+		larikaem	1-29(70%) 30-250(50%)
+		abiesach	1-49(70%) 50-250(50%)
+		betuplat	1-39(70%) 40-250(50%)
+		quercris	1-39(70%) 40-250(50%)
+		alnujapo	1-39(70%) 40-250(50%)
+		fraxmand	1-39(70%) 40-250(50%)
+		ulmudavi	1-39(70%) 40-250(50%)
+		pastgras	All
+		sasagras	All
+	Plant abiesach
+
+
+>> 2.2.1.2.1 continue_SelectiveCutting normal broadleaf (ID=15)
+Prescription continue_selective_normal_broad
+	StandRanking	MaxCohortAge
+	MinimumAge		40
+	MinimumTimeSinceLastHarvest 15
+	>> 混交林化の択伐に優占樹種、優占樹齢の指定はいらないと思った。
+	SiteSelection Complete
+	CohortsRemoved 	SpeciesList
+		>> 択伐なら40%と30%？-> normalは複層林、longは択伐を用いた複層林化とする
+		larikaem	1-29(70%) 30-250(50%)
+		abiesach	1-49(70%) 50-250(50%)
+		betuplat	1-39(70%) 40-250(50%)
+		quercris	1-39(70%) 40-250(50%)
+		alnujapo	1-39(70%) 40-250(50%)
+		fraxmand	1-39(70%) 40-250(50%)
+		ulmudavi	1-39(70%) 40-250(50%)
+		pastgras	All
+		sasagras	All
+	Plant quercris
+
+>> 2.2.2.1.1n continue_SelectiveCutting long conifer national (ID=16)
+Prescription continue_selective_long_conifer_national
+	StandRanking	MaxCohortAge
+	MinimumAge		60
+	MinimumTimeSinceLastHarvest 15
+	>> 混交林化の択伐に優占樹種、優占樹齢の指定はいらないと思った。
+	SiteSelection Complete
+	CohortsRemoved	SpeciesList
+		larikaem	1-29(40%) 30-250(30%)
+		abiesach	1-49(40%) 50-250(30%)
+		betuplat	1-39(40%) 40-250(30%)
+		quercris	1-39(40%) 40-250(30%)
+		alnujapo	1-39(40%) 40-250(30%)
+		fraxmand	1-39(40%) 40-250(30%)
+		ulmudavi	1-39(40%) 40-250(30%)
+		pastgras	All
+		sasagras	All
+	Plant larikaem
+
+>> 2.2.2.1.1p continue_SelectiveCutting long conifer pref (ID=17)
+Prescription continue_selective_long_conifer_pref
+	StandRanking	MaxCohortAge
+	MinimumAge		100
+	MinimumTimeSinceLastHarvest 15
+	>> 混交林化の択伐に優占樹種、優占樹齢の指定はいらないと思った。
+	SiteSelection Complete
+	CohortsRemoved	SpeciesList
+		larikaem	1-29(40%) 30-250(30%)
+		abiesach	1-49(40%) 50-250(30%)
+		betuplat	1-39(40%) 40-250(30%)
+		quercris	1-39(40%) 40-250(30%)
+		alnujapo	1-39(40%) 40-250(30%)
+		fraxmand	1-39(40%) 40-250(30%)
+		ulmudavi	1-39(40%) 40-250(30%)
+		pastgras	All
+		sasagras	All
+	Plant abiesach
+
+
+>> 2.2.2.2.1 continue_SelectiveCutting long broadleaf (ID=18)
+Prescription continue_selective_long_broad
+	StandRanking	MaxCohortAge
+	MinimumAge		80
+	MinimumTimeSinceLastHarvest 15
+	>> 混交林化の択伐に優占樹種、優占樹齢の指定はいらないと思った。
+	SiteSelection Complete
+	CohortsRemoved	SpeciesList
+		larikaem	1-29(40%) 30-250(30%)
+		abiesach	1-49(40%) 50-250(30%)
+		betuplat	1-39(40%) 40-250(30%)
+		quercris	1-39(40%) 40-250(30%)
+		alnujapo	1-39(40%) 40-250(30%)
+		fraxmand	1-39(40%) 40-250(30%)
+		ulmudavi	1-39(40%) 40-250(30%)
+		pastgras	All
+		sasagras	All
+	Plant quercris
+
+
+>> 2 k_ikuten (3 k_multiに統合)
+>>Prescription k_ikuten
+>>	StandRanking	MaxCohortAge
+>>	MinimumAge		30
+	>> 択伐に優占樹種、優占樹齢の指定はいらないと思った。
+	>> 混交林にするのか針葉樹だけの複層林にするのか確認。（混交林を目指す話をした気がする）
+>>	SiteSelection Complete
+>>	CohortsRemoved	SpeciesList
+>>		larikaem	30-250(30%)
+>>		abiesach	50-250(30%)
+>>		betuplat	40-250(30%)
+>>		quercris	40-250(30%)
+>>		alnujapo	40-250(30%)
+>>		fraxmand	40-250(30%)
+>>		ulmudavi	40-250(30%)
+>>		pastgras	All
+>>		sasagras	All
+		>> 伐採は高齢のコホート、30％
+>>	Plant larikaem
+>> 「高齢のコホート」のソースが見つからなかったから3 k_multiと統合
+
+>> 3 k_multi (ID=19)
+Prescription k_multi
+	StandRanking	MaxCohortAge
+	MinimumAge		30
+	MinimumTimeSinceLastHarvest 15
+	>> 択伐に優占樹種、優占樹齢の指定はいらないと思った。
+	>> 混交林にするのか針葉樹だけの複層林にするのか確認。
+	SiteSelection Complete
+	CohortsRemoved	SpeciesList
+		larikaem	1-29(70%) 30-250(50%)
+		abiesach	1-49(70%) 50-250(50%)
+		betuplat	1-39(70%) 40-250(50%)
+		quercris	1-39(70%) 40-250(50%)
+		alnujapo	1-39(70%) 40-250(50%)
+		fraxmand	1-39(70%) 40-250(50%)
+		ulmudavi	1-39(70%) 40-250(50%)
+		pastgras	All
+		sasagras	All
+		>> 伐採はdefault(国有林の択伐のdefaultとは？)
+	Plant larikaem
+
+
+>> 8 c_multi_todo (ID=20)
+Prescription c_multi_todo
+>> 人工林保全施業　複層林　標準伐期齢以上
+	StandRanking	MaxCohortAge
+	MinimumAge		50
+	MinimumTimeSinceLastHarvest 15
+	>> 択伐に優占樹種、優占樹齢の指定はいらないと思った。
+	>> 混交林にするのか針葉樹だけの複層林にするのか確認。
+	SiteSelection Complete
+	CohortsRemoved	SpeciesList
+		larikaem	1-29(70%) 30-250(50%)
+		abiesach	1-49(70%) 50-250(50%)
+		betuplat	1-39(70%) 40-250(50%)
+		quercris	1-39(70%) 40-250(50%)
+		alnujapo	1-39(70%) 40-250(50%)
+		fraxmand	1-39(70%) 40-250(50%)
+		ulmudavi	1-39(70%) 40-250(50%)
+		pastgras	All
+		sasagras	All
+	Plant abiesach
+
+
+>> 9 c_single_sel10 (ID=21)
+Prescription c_single_sel10
+>> 人工林保全施業　長伐期　標準伐期齢＋10年以上とは？
+	StandRanking	MaxCohortAge
+	MinimumAge		60
+	MinimumTimeSinceLastHarvest 15
+	>> 択伐に優占樹種、優占樹齢の指定はいらないと思った。
+	>> 混交林にするのか針葉樹だけの複層林にするのか確認。
+	SiteSelection Complete
+	CohortsRemoved	SpeciesList
+		larikaem	1-250(70%)
+		abiesach	1-250(70%)
+		betuplat	1-250(70%)
+		quercris	1-250(70%)
+		alnujapo	1-250(70%)
+		fraxmand	1-250(70%)
+		ulmudavi	1-250(70%)
+		pastgras	All
+		sasagras	All
+	Plant abiesach
+
+>> 13 c_multi_nat (ID=22)
+Prescription c_multi_nat
+>> 天然林保全施業　複層林　標準伐期齢以上
+	StandRanking	MaxCohortAge
+	MinimumAge		50
+	MinimumTimeSinceLastHarvest 15
+	>> 混交林化の択伐に優占樹種、優占樹齢の指定はいらないと思った。
+	>> 混交林にするのか針葉樹だけの複層林にするのか確認。
+	SiteSelection Complete
+	CohortsRemoved	SpeciesList
+		larikaem	1-29(70%) 30-250(50%)
+		abiesach	1-49(70%) 50-250(50%)
+		betuplat	1-39(70%) 40-250(50%)
+		quercris	1-39(70%) 40-250(50%)
+		alnujapo	1-39(70%) 40-250(50%)
+		fraxmand	1-39(70%) 40-250(50%)
+		ulmudavi	1-39(70%) 40-250(50%)
+		pastgras	All
+		sasagras	All
+	Plant quercris
+
+
+>> 14 c_single_sel (ID=23)
+Prescription c_single_sel
+>> 天然林保全施業　長伐期　標準伐期齢＋10年以上　
+	StandRanking	MaxCohortAge
+	MinimumAge		60
+	MinimumTimeSinceLastHarvest 15
+	>> 混交林化の択伐に優占樹種、優占樹齢の指定はいらないと思った。
+	>> 混交林にするのか針葉樹だけの複層林にするのか確認。
+	SiteSelection Complete
+	CohortsRemoved	SpeciesList
+		larikaem	1-250(70%)
+		abiesach	1-250(70%)
+		betuplat	1-250(70%)
+		quercris	1-250(70%)
+		alnujapo	1-250(70%)
+		fraxmand	1-250(70%)
+		ulmudavi	1-250(70%)
+		pastgras	All
+		sasagras	All
+	Plant quercris
+
+>> 15 p_art_multi_str_abies (ID=24)
+Prescription p_art_multi_str_abies
+>> 人工林保全施業　複層林　標準伐期齢以上
+	StandRanking	MaxCohortAge
+	MinimumAge		50
+	MinimumTimeSinceLastHarvest 15
+	>> 択伐に優占樹種、優占樹齢の指定はいらないと思った。
+	>> 混交林にするのか針葉樹だけの複層林にするのか確認。
+	SiteSelection Complete
+	CohortsRemoved	SpeciesList
+		larikaem	1-29(70%) 30-250(50%)
+		abiesach	1-49(70%) 50-250(50%)
+		betuplat	1-39(70%) 40-250(50%)
+		quercris	1-39(70%) 40-250(50%)
+		alnujapo	1-39(70%) 40-250(50%)
+		fraxmand	1-39(70%) 40-250(50%)
+		ulmudavi	1-39(70%) 40-250(50%)
+		pastgras	All
+		sasagras	All
+	Plant abiesach
+
+
+>> 16 p_art_multi_wea_abies (ID=25)
+Prescription p_art_multi_wea_abies
+>> 人工林保全施業　択伐による複層林　標準伐期齢以上
+	StandRanking	MaxCohortAge
+	MinimumAge		50
+	MinimumTimeSinceLastHarvest 15
+	>> 択伐に優占樹種、優占樹齢の指定はいらないと思った。
+	>> 混交林にするのか針葉樹だけの複層林にするのか確認。
+	SiteSelection Complete
+	CohortsRemoved	SpeciesList
+		larikaem	1-29(40%) 30-250(30%)
+		abiesach	1-49(40%) 50-250(30%)
+		betuplat	1-39(40%) 40-250(30%)
+		quercris	1-39(40%) 40-250(30%)
+		alnujapo	1-39(40%) 40-250(30%)
+		fraxmand	1-39(40%) 40-250(30%)
+		ulmudavi	1-39(40%) 40-250(30%)
+		pastgras	All
+		sasagras	All
+	Plant abiesach
+
+
+>> 17 p_ntr_multi_str_quer (ID=26)
+>>（19 p_unk_multi_str_abieを統合）
+Prescription p_ntr_multi_str_quer
+>> 天然林保全施業　複層林　標準伐期齢以上
+	StandRanking	MaxCohortAge
+	MinimumAge		50
+	MinimumTimeSinceLastHarvest 15
+	>> 混交林化の択伐に優占樹種、優占樹齢の指定はいらないと思った。
+	>> 混交林にするのか針葉樹だけの複層林にするのか確認。
+	SiteSelection Complete
+	CohortsRemoved	SpeciesList
+		larikaem	1-29(70%) 30-250(50%)
+		abiesach	1-49(70%) 50-250(50%)
+		betuplat	1-39(70%) 40-250(50%)
+		quercris	1-39(70%) 40-250(50%)
+		alnujapo	1-39(70%) 40-250(50%)
+		fraxmand	1-39(70%) 40-250(50%)
+		ulmudavi	1-39(70%) 40-250(50%)
+		pastgras	All
+		sasagras	All
+	Plant quercris
+
+
+>> 18 p_ntr_multi_wea_quer (ID=27)
+>>　（20 p_unk_multi_wea_abieを統合）
+Prescription p_ntr_multi_wea_quer
+>> 天然林保全施業　択伐による複層林　標準伐期齢以上
+	StandRanking	MaxCohortAge
+	MinimumAge		50
+	MinimumTimeSinceLastHarvest 15
+	>> 混交林化の択伐に優占樹種、優占樹齢の指定はいらないと思った。
+	>> 混交林にするのか針葉樹だけの複層林にするのか確認。
+	SiteSelection Complete
+	CohortsRemoved	SpeciesList
+		larikaem	1-29(40%) 30-250(30%)
+		abiesach	1-49(40%) 50-250(30%)
+		betuplat	1-39(40%) 40-250(30%)
+		quercris	1-39(40%) 40-250(30%)
+		alnujapo	1-39(40%) 40-250(30%)
+		fraxmand	1-39(40%) 40-250(30%)
+		ulmudavi	1-39(40%) 40-250(30%)
+		pastgras	All
+		sasagras	All
+	Plant quercris
+
+
+>> 19 p_unk_multi_str_abie　（17 p_ntr_multi_str_querに統合） (ID=26)
+
+>> 20 p_unk_multi_wea_abie　（18 p_ntr_multi_wea_querに統合） (ID=27)
+
+>> Agriculture (ID=28)
+Prescription Agriculture
+
+	StandRanking	Random
+
+	SiteSelection	Complete
+
+	CohortsRemoved	SpeciesList
+		betuplat	All
+		quercris	All
+		larikaem	All
+		alnujapo	All
+		fraxmand	All
+		abiesach	All
+		ulmudavi	All
+		pastgras	1-5(98%)
+		sasagras	All
+
+>> Built solar power equipment after pastureland abandonment (ID = 29)
+Prescription stop_and_solar
+
+	StandRanking	Random
+
+	SiteSelection	Complete
+
+	CohortsRemoved	SpeciesList
+		betuplat	All
+		quercris	All
+		larikaem	All
+		alnujapo	All
+		fraxmand	All
+		abiesach	All
+		ulmudavi	All
+		pastgras	All
+		sasagras	All
+
+
+>> Cut betuplat (ID = 30)
+Prescription betuplat_ClearCutting_abandoned
+	StandRanking	MaxCohortAge
+	ForestTypeTable
+		>> InclusionRule ageRange percentCells species
+		Required 25-250 highest betuplat
+	SiteSelection	Complete
+	CohortsRemoved ClearCut
+
+>> Cut quercris (ID = 31)
+Prescription quercris_ClearCutting_abandoned
+	StandRanking	MaxCohortAge
+	ForestTypeTable
+		>> InclusionRule ageRange percentCells species
+		Required 20-74 highest quercris
+>>	薪炭林の20年ごとの基準で20年以上で切る
+>>	萌芽更新できる上限の74年までで切る
+	SiteSelection	Complete
+	CohortsRemoved ClearCut
+
+>> abandonment_and_plant_broad (ID=32)
+Prescription abandonment_and_plant_broad
+	StandRanking	Random
+	SiteSelection	Complete
+	CohortsRemoved	PlantOnly
+	Plant	quercris
+
+
+
+>> *****************************************************************************
+HarvestImplementations
+>>  Mgmt Area   Prescription					Harvest Area    Begin Time  End Time
+>>  ---------   ------------					------------    ----------  --------
+2	k_multi	6.7%	1	85
+3	k_multi	6.7%	1	85
+8	c_multi_todo	6.7%	1	85
+9	c_single_sel10	6.7%	1	85
+13	c_multi_nat	6.7%	1	85
+14	c_single_sel	6.7%	1	85
+15	p_art_multi_str_abies	6.7%	1	85
+16	p_art_multi_wea_abies	6.7%	1	85
+17	p_ntr_multi_str_quer	6.7%	1	85
+19	p_ntr_multi_str_quer	6.7%	1	85
+18	p_ntr_multi_wea_quer	6.7%	1	85
+20	p_ntr_multi_wea_quer	6.7%	1	85

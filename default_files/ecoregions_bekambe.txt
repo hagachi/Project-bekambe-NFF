@@ -1,0 +1,15 @@
+LandisData	"Ecoregions"
+
+>>
+>> Date:    2017.7.5
+>> Version: beta v1.0.1
+>> Note:    湿地性土壌(eco20X)をすべて計算対象外に変更
+>>
+
+
+>>	Active	Map		Name	Description
+>>			Code
+>>--------------------------------------------------------			
+	no		0		eco000	"non-Active"
+	yes		100		eco100	"森林土壌"
+

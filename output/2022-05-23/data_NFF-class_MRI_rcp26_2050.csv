@@ -1,0 +1,111 @@
+f_continue,p_a,p_s,p_plant,f_cut,f_rotation,f_plant,nffclass,climate,decade
+abandon,Half of depop,No solar,Hardwood,Selective,Long,Hardwood,Dominated solution,MRI_rcp26,2050
+abandon,Half of depop,No solar,Hardwood,Selective,Long,Natural,Dominated solution,MRI_rcp26,2050
+abandon,Half of depop,No solar,Hardwood,Selective,Normal,Hardwood,Dominated solution,MRI_rcp26,2050
+abandon,Half of depop,No solar,Hardwood,Selective,Normal,Natural,Dominated solution,MRI_rcp26,2050
+abandon,Half of depop,No solar,Natural,Selective,Long,Hardwood,Dominated solution,MRI_rcp26,2050
+abandon,Half of depop,No solar,Natural,Selective,Long,Natural,Dominated solution,MRI_rcp26,2050
+abandon,Half of depop,No solar,Natural,Selective,Normal,Hardwood,Dominated solution,MRI_rcp26,2050
+abandon,Half of depop,No solar,Natural,Selective,Normal,Natural,Dominated solution,MRI_rcp26,2050
+abandon,No abandonment,No solar,Natural,,,,NN & NC,MRI_rcp26,2050
+abandon,No abandonment,No solar,Natural,Selective,Long,Hardwood,Dominated solution,MRI_rcp26,2050
+abandon,No abandonment,No solar,Natural,Selective,Long,Natural,Dominated solution,MRI_rcp26,2050
+abandon,No abandonment,No solar,Natural,Selective,Normal,Hardwood,Dominated solution,MRI_rcp26,2050
+abandon,No abandonment,No solar,Natural,Selective,Normal,Natural,Dominated solution,MRI_rcp26,2050
+abandon,Same as depop,No solar,Hardwood,Selective,Long,Hardwood,Dominated solution,MRI_rcp26,2050
+abandon,Same as depop,No solar,Hardwood,Selective,Long,Natural,Dominated solution,MRI_rcp26,2050
+abandon,Same as depop,No solar,Hardwood,Selective,Normal,Hardwood,Dominated solution,MRI_rcp26,2050
+abandon,Same as depop,No solar,Hardwood,Selective,Normal,Natural,Dominated solution,MRI_rcp26,2050
+abandon,Same as depop,No solar,Natural,Selective,Long,Hardwood,Dominated solution,MRI_rcp26,2050
+abandon,Same as depop,No solar,Natural,Selective,Long,Natural,Dominated solution,MRI_rcp26,2050
+abandon,Same as depop,No solar,Natural,Selective,Normal,Hardwood,Dominated solution,MRI_rcp26,2050
+abandon,Same as depop,No solar,Natural,Selective,Normal,Natural,Dominated solution,MRI_rcp26,2050
+continue,,No solar,Natural,Clear,Normal,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,No solar,Hardwood,Clear,Long,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,No solar,Hardwood,Clear,Long,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,No solar,Hardwood,Clear,Normal,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,No solar,Hardwood,Clear,Normal,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,No solar,Hardwood,Selective,Long,Conifer,Dominated solution,MRI_rcp26,2050
+continue,Half of depop,No solar,Hardwood,Selective,Long,Hardwood,Dominated solution,MRI_rcp26,2050
+continue,Half of depop,No solar,Hardwood,Selective,Normal,Conifer,Dominated solution,MRI_rcp26,2050
+continue,Half of depop,No solar,Hardwood,Selective,Normal,Hardwood,Dominated solution,MRI_rcp26,2050
+continue,Half of depop,No solar,Natural,Clear,Long,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,No solar,Natural,Clear,Long,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,No solar,Natural,Clear,Normal,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,No solar,Natural,Clear,Normal,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,No solar,Natural,Selective,Long,Conifer,Dominated solution,MRI_rcp26,2050
+continue,Half of depop,No solar,Natural,Selective,Long,Hardwood,Dominated solution,MRI_rcp26,2050
+continue,Half of depop,No solar,Natural,Selective,Normal,Conifer,NN-NS Pareto,MRI_rcp26,2050
+continue,Half of depop,No solar,Natural,Selective,Normal,Hardwood,Dominated solution,MRI_rcp26,2050
+continue,Half of depop,Solar 100%,Natural,Clear,Long,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,Solar 100%,Natural,Clear,Long,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,Solar 100%,Natural,Clear,Normal,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,Solar 100%,Natural,Clear,Normal,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,Solar 100%,Natural,Selective,Long,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,Solar 100%,Natural,Selective,Long,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,Solar 100%,Natural,Selective,Normal,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,Solar 100%,Natural,Selective,Normal,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,Solar 50%,Hardwood,Clear,Long,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,Solar 50%,Hardwood,Clear,Long,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,Solar 50%,Hardwood,Clear,Normal,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,Solar 50%,Hardwood,Clear,Normal,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,Solar 50%,Hardwood,Selective,Long,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,Solar 50%,Hardwood,Selective,Long,Hardwood,Dominated solution,MRI_rcp26,2050
+continue,Half of depop,Solar 50%,Hardwood,Selective,Normal,Conifer,Dominated solution,MRI_rcp26,2050
+continue,Half of depop,Solar 50%,Hardwood,Selective,Normal,Hardwood,Dominated solution,MRI_rcp26,2050
+continue,Half of depop,Solar 50%,Natural,Clear,Long,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,Solar 50%,Natural,Clear,Long,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,Solar 50%,Natural,Clear,Normal,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,Solar 50%,Natural,Clear,Normal,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,Solar 50%,Natural,Selective,Long,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Half of depop,Solar 50%,Natural,Selective,Long,Hardwood,Dominated solution,MRI_rcp26,2050
+continue,Half of depop,Solar 50%,Natural,Selective,Normal,Conifer,Dominated solution,MRI_rcp26,2050
+continue,Half of depop,Solar 50%,Natural,Selective,Normal,Hardwood,Dominated solution,MRI_rcp26,2050
+continue,No abandonment,No solar,Natural,Clear,Long,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,No abandonment,No solar,Natural,Clear,Long,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,No abandonment,No solar,Natural,Clear,Normal,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,No abandonment,No solar,Natural,Clear,Normal,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,No abandonment,No solar,Natural,Selective,Long,Conifer,Dominated solution,MRI_rcp26,2050
+continue,No abandonment,No solar,Natural,Selective,Long,Hardwood,Dominated solution,MRI_rcp26,2050
+continue,No abandonment,No solar,Natural,Selective,Normal,Conifer,NN-NS Pareto,MRI_rcp26,2050
+continue,No abandonment,No solar,Natural,Selective,Normal,Hardwood,NN-NS Pareto,MRI_rcp26,2050
+continue,Same as depop,No solar,Hardwood,Clear,Long,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,No solar,Hardwood,Clear,Long,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,No solar,Hardwood,Clear,Normal,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,No solar,Hardwood,Clear,Normal,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,No solar,Hardwood,Selective,Long,Conifer,Dominated solution,MRI_rcp26,2050
+continue,Same as depop,No solar,Hardwood,Selective,Long,Hardwood,Dominated solution,MRI_rcp26,2050
+continue,Same as depop,No solar,Hardwood,Selective,Normal,Conifer,Dominated solution,MRI_rcp26,2050
+continue,Same as depop,No solar,Hardwood,Selective,Normal,Hardwood,Dominated solution,MRI_rcp26,2050
+continue,Same as depop,No solar,Natural,Clear,Long,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,No solar,Natural,Clear,Long,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,No solar,Natural,Clear,Normal,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,No solar,Natural,Clear,Normal,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,No solar,Natural,Selective,Long,Conifer,Dominated solution,MRI_rcp26,2050
+continue,Same as depop,No solar,Natural,Selective,Long,Hardwood,Dominated solution,MRI_rcp26,2050
+continue,Same as depop,No solar,Natural,Selective,Normal,Conifer,NN-NS Pareto,MRI_rcp26,2050
+continue,Same as depop,No solar,Natural,Selective,Normal,Hardwood,Dominated solution,MRI_rcp26,2050
+continue,Same as depop,Solar 100%,Natural,Clear,Long,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,Solar 100%,Natural,Clear,Long,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,Solar 100%,Natural,Clear,Normal,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,Solar 100%,Natural,Clear,Normal,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,Solar 100%,Natural,Selective,Long,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,Solar 100%,Natural,Selective,Long,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,Solar 100%,Natural,Selective,Normal,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,Solar 100%,Natural,Selective,Normal,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,Solar 50%,Hardwood,Clear,Long,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,Solar 50%,Hardwood,Clear,Long,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,Solar 50%,Hardwood,Clear,Normal,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,Solar 50%,Hardwood,Clear,Normal,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,Solar 50%,Hardwood,Selective,Long,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,Solar 50%,Hardwood,Selective,Long,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,Solar 50%,Hardwood,Selective,Normal,Conifer,NN-NS Pareto,MRI_rcp26,2050
+continue,Same as depop,Solar 50%,Hardwood,Selective,Normal,Hardwood,Dominated solution,MRI_rcp26,2050
+continue,Same as depop,Solar 50%,Natural,Clear,Long,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,Solar 50%,Natural,Clear,Long,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,Solar 50%,Natural,Clear,Normal,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,Solar 50%,Natural,Clear,Normal,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,Solar 50%,Natural,Selective,Long,Conifer,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,Solar 50%,Natural,Selective,Long,Hardwood,Non-Nature positive,MRI_rcp26,2050
+continue,Same as depop,Solar 50%,Natural,Selective,Normal,Conifer,NS,MRI_rcp26,2050
+continue,Same as depop,Solar 50%,Natural,Selective,Normal,Hardwood,Dominated solution,MRI_rcp26,2050

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20220411</CreaDate><CreaTime>14492700</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Spatial Analyst Tools.tbx\Viewshed" Date="20220411" Time="144927">Viewshed dem_easternHokkaido_Clip pop_BaU_intersect_point E:\hg_bekambe_river\viewshed_pop.tif 1 FLAT_EARTH 0.13 #</Process></lineage></DataProperties></Esri></metadata>

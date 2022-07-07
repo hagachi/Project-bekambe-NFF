@@ -1,0 +1,20 @@
+LandisData  "Output Biomass"
+
+>>
+>> Date:    17/06/22
+>> Version: beta v2.0
+>> Note:    Biomass output extensionのバージョンアップに伴い、
+>>			LandisDataキーワードが"Biomass Output"から"Output Biomass"に変更された。
+>>
+
+
+Timestep	1
+
+MakeTable yes  << Optional parameter
+
+Species		all
+MapNames	OutputMaps/biomass/{species}-{timestep}.tif
+
+
+DeadPools	both
+MapNames	OutputMaps/biomass/{pool}-{timestep}.tif
